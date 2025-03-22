@@ -8,7 +8,7 @@ import {
 
   async function run(prompt) {
   
-  const apiKey = "AIzaSyB8kU_w0awQML1PEd_--56UcgbWIxiv7PQ" ;
+  const apiKey = "YOUR_API_KEY" ;
   const genAI = new GoogleGenerativeAI(apiKey);
   
   const model = genAI.getGenerativeModel({
